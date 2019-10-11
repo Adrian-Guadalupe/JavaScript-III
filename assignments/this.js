@@ -18,6 +18,9 @@ function principle1(name) {
 
  principle1("Adrian");
  
+
+
+
 // Principle 2- Implicit Binding
 
 const principle2 = {
@@ -30,6 +33,10 @@ const principle2 = {
  
  principle2.sayHello('Adrian');
  
+
+
+
+
 
 // Principle 3- New Binding
 
@@ -48,6 +55,11 @@ function Person(obj) {
  const leo = new Person({name: 'Leo', age: 3});
  console.log(leo.speak());
 
+
+
+
+
+ 
 // Principle 4- Explicit Binding
 
 console.log(daddy.speak.call(leo));
