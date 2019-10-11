@@ -59,7 +59,7 @@ function Person(obj) {
 
 
 
- 
+
 // Principle 4- Explicit Binding
 
 console.log(daddy.speak.call(leo));
